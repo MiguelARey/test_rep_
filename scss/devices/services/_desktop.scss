@@ -1,0 +1,118 @@
+@media (min-width:$desktopScreen){
+    /* footer */
+    .social{
+        flex-direction: row;
+        >p{
+            padding-left: 8vh;
+        }
+        >ul{
+            padding-right: 8vh;
+        }
+        
+    }
+    .form {
+        column-gap: 15vh;
+        > aside h3{
+            width: 100%;
+        }
+        ul{
+            padding-bottom: 2vh;
+        }
+    }
+    footer{
+        > .form{
+            width: 95%;
+        }
+    }
+    aside{
+        > .network {
+            > a{
+                width: 5vh;
+                height: 5vh;
+                font-size: 13px;
+                
+            }
+        }
+    }
+    .network{
+        padding-left: 1vh;
+        a:hover{
+            background-color: whitesmoke;
+            color: $bg2color;
+            margin: 0 2vh;
+            width: 7vh;
+            height: 7vh;
+            font-size: 27px;
+            border: 2px solid $bg2color;
+            transition: .3s;
+        }
+        
+    }
+    
+    
+    /*pricing*/
+    .pricing{
+        aside{
+            width: 100%;
+        }
+        > section h2{
+            height: 10vh;
+            font-size: 24px;
+        }
+        > section li{
+            padding: 2vh 0;
+        }
+        > section a{
+            width: 45%;
+            height: 6vh;
+        }
+        ul{
+            padding: 1vh 0;
+        }
+        strong{
+            font-size: 3rem;
+        }
+        > section p{
+            display: flex;
+            align-items: end;
+        }
+        span{
+            padding-bottom: 5vh;
+        }
+        small{
+            padding-bottom: 1vw;
+        }
+        > section{
+            column-gap: 4vh;
+        }
+    }
+    /* quote */
+    .quote{
+        flex-direction: row;
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .left{
+        width: 50%;
+        h5{
+            font-size: 1.9rem;
+        }
+    }
+    .right{
+        width: 35%;
+    }
+
+    /* services */
+    .services{
+        > section {
+            flex-wrap: unset;
+            a{
+                width: 40%;
+            }
+        }
+        > section > aside{
+            width: 100%;
+        }
+    }
+}
